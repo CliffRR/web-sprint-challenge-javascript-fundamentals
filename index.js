@@ -141,17 +141,7 @@ const zooAnimals = [
   */
 
   function consume(a,b,cb){
-    if(cb === add){
-      return cb(a,b)
-    }
-
-    if(cb === multiply){
-      return cb(a,b)
-    }
-
-    if(cb === greeting){
-      return cb(a,b)
-    }
+    return cb(a,b)
   }
 
  
